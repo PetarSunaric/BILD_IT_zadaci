@@ -19,9 +19,7 @@ public class Zadatak_5 {
 	}
 
 	public static void main(String[] args) {
-		
-		int heads = 0, tails = -1;
-		
+
 		java.util.Scanner input = new java.util.Scanner(System.in);
 		//Pitamo korisnika koliko puta zeli da se novcic baci i uzimamo unos
 		System.out.println("Koliko puta zelite da bacite novcic? ");
