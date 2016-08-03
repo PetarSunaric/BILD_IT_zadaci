@@ -17,7 +17,7 @@ public class Zadatak_2 {
 			int num2 = (int) (Math.random() * 10);
 			System.out.println("Koliko je " + num1 + " - " + num2 + " ?");
 			int answer = input.nextInt();
-			if (answer == (num1 + num2)) {
+			if (answer == (num1 - num2)) {
 				correct++;
 			} else {
 				incorrect++;
