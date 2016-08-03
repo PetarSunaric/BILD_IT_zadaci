@@ -21,7 +21,7 @@ public class Zadatak_4 {
 	public static void main(String[] args) {
 		double a[][] = new double[5][5];
 		java.util.Scanner input = new java.util.Scanner(System.in);
-		//Unosimo elemente u matricu
+		//Unosimo elemente u matricu 
 		System.out.println("Molimo unesite elemente u niz: ");
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a[i].length; j++) {
