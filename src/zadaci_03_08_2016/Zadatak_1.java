@@ -16,7 +16,6 @@ public class Zadatak_1 {
 			}
 		}
 		return true;
-
 	}
 
 	public static void primeNum(int n, int b, int numPerLine) {

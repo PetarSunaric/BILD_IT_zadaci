@@ -24,7 +24,7 @@ public class Zadatak_5 {
 						result[row][Col] = temp;
 					}
 				}
-				System.out.print((int)result[row][col] + " ");
+				System.out.print((int) result[row][col] + " ");
 			}
 			System.out.println();
 		}

@@ -16,6 +16,7 @@ public class Zadatak_4 {
 		}
 		return largest;
 	}
+
 	public static void main(String[] args) {
 		double a[][] = new double[5][5];
 		java.util.Scanner input = new java.util.Scanner(System.in);
