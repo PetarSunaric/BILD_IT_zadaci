@@ -25,7 +25,6 @@ public class Zadatak_2 {
 		}
 		System.out.println("Imali ste " + correct + " tacnih odgovora i " + incorrect + " netacnih.");
 	}
-
 	public static void main(String[] args) {
 		java.util.Scanner input = new java.util.Scanner(System.in);
 		//Uzimamo unos od korisnika za broj pitanja
