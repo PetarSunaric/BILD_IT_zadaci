@@ -35,7 +35,7 @@ public class Zadatak_5 {
 		java.util.Scanner input = new java.util.Scanner(System.in);
 
 		double array[][] = new double[3][3];
-		// Unosimo matricu
+		// Unosimo matricu.
 		System.out.println("Unesite vasu matricu 3x3: ");
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {

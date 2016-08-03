@@ -31,7 +31,7 @@ public class Zadatak_3 {
 		int[] arrayTwo = new int[5];
 
 		java.util.Scanner input = new java.util.Scanner(System.in);
-		// Uzimamo od korisnika elemente prvog niza
+		// Uzimamo od korisnika elemente prvog niza.
 		System.out.println("Molimo popunite prvi niz: ");
 		for (int i = 0; i < arrayOne.length; i++) {
 			arrayOne[i] = input.nextInt();

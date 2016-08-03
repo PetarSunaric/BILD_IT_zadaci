@@ -20,7 +20,7 @@ public class Zadatak_1 {
 
 	public static void primeNum(int n, int b, int numPerLine) {
 		int count = 0;
-		// Pozivamo metodu koja racuna da li je prost, i ako jeste ispisujemo
+		// Pozivamo metodu koja racuna da li je prost, i ako jeste ispisujemo.
 		for (int i = n; i <= b; i++) {
 			if (isPrime(i) == true) {
 				System.out.print(i + " ");
