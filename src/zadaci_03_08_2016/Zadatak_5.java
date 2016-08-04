@@ -14,7 +14,7 @@ public class Zadatak_5 {
 				result[i][j] = array[i][j];
 
 		int temp = 0;
-		// Sortiramo brojeve od manjeg ka vecem 
+		// Sortiramo brojeve od manjeg ka vecem
 		for (int row = 0; row < result.length; row++) {
 			for (int col = 0; col < result[row].length; col++) {
 				for (int Col = col; Col < result[row].length; Col++) {

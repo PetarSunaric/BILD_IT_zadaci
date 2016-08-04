@@ -9,7 +9,7 @@ public class Zadatak_1 {
 		if (n <= 1) {
 			return false;
 		}
-		// U ovoj petlji racunamo da li je broj prost
+		// U ovoj petlji racunamo da li je broj prost 
 		for (int i = 2; i < Math.sqrt(n); i++) {
 			if (n % i == 0) {
 				return false;
