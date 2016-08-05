@@ -3,7 +3,7 @@ package zadaci_04_08_2016;
 public class Zadatak_3 {
 
 	public static void displaySortedNumbers(double num1, double num2, double num3) {
-		// Sortiramo brojeve od najmanjeg ka najvecem
+		// Sortiramo brojeve od najmanjeg ka najvecem 
 		if (num1 < num2 && num1 < num3 && num2 < num3) {
 			System.out.println(num1 + " " + num2 + " " + num3);
 		} else if (num1 <= num2 && num1 <= num3 && num3 <= num2) {

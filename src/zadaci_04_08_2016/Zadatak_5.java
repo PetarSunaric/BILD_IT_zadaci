@@ -12,7 +12,7 @@ public class Zadatak_5 {
 
 		/*
 		 * Punimo niz i postavljamo uslov da 0 prekida unos,racunamo sumu i
-		 * brojimo koliko je unosa bilo
+		 * brojimo koliko je unosa bilo 
 		 */
 		System.out.println("Molimo unesite vase brojeve, 0 prekida unos: ");
 		for (int i = 0; i <= array.length; i++) {

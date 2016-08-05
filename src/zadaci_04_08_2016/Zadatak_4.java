@@ -9,7 +9,7 @@ public class Zadatak_4 {
 	}
 
 	public static char upperCaseDigit() {
-		//Random brojevi
+		//Random brojevi 
 		int digit = (int) (Math.random() * 10) + (int) '0';
 		return (char) digit;
 	}

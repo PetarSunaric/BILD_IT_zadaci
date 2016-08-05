@@ -10,7 +10,7 @@ public class Zadatak_2 {
 		int[] array = new int[9];
 		int result = 0;
 
-		// Napunimo niz
+		// Napunimo niz 
 		for (int i = 0; i < array.length; i++) {
 			array[i] = input.nextInt();
 			result = array[i] * (i + 1) + result;

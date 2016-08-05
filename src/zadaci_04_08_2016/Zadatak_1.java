@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Zadatak_1 {
 
 	public static void main(String[] args) {
+		//Pravimo skener i uzimamo unos od korisnika 
 		Scanner input = new Scanner(System.in);
-
 		int divider = 2;
 
 		System.out.println("Unesite broj:");
 		int result = input.nextInt();
 
 		System.out.println("Faktori broja " + result + " su:");
-		
+		//Pronalazimo faktore broja
 		while (result != 1) {
 			while (result % divider == 0) {
 				System.out.print(divider);
