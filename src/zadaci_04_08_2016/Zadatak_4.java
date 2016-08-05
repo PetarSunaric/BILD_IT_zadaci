@@ -16,7 +16,7 @@ public class Zadatak_4 {
 
 	public static void main(String[] args) {
 		//Stampamo slova pozivom metode 
-		for (int i = 0; i <= 100; i++) {
+		for (int i =1; i <= 100; i++) {
 			System.out.print(upperCaseLetter(i));
 			if (i % 10 == 0)
 				System.out.print("\n");
@@ -24,7 +24,7 @@ public class Zadatak_4 {
 		//Pravimo razmak
 		System.out.println("\n");
 		//Stampamo brojeve pozivom metode
-		for (int i = 0; i <= 100; i++) {
+		for (int i = 1; i <= 100; i++) {
 			System.out.print(upperCaseDigit());
 			if (i % 10 == 0)
 				System.out.print("\n");
