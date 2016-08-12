@@ -4,6 +4,10 @@ public class Zadatak_4 {
 
 	public static int count(String str, char a) {
 		int counter = 0;
+		/*
+		 * Provjerimo da li string sadrzi odredjeno slovo,ako da,brojimo ga i
+		 * vracamo broj ponavljanja
+		 */
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) == a) {
 				counter++;
@@ -19,7 +23,7 @@ public class Zadatak_4 {
 		String str = input.nextLine().toUpperCase();
 		System.out.println("Molimo unesite koje slovo zelite da izbrojite: ");
 		char a = input.next().toUpperCase().charAt(0);
-		
+		// Ispisujemo pozivom metode
 		System.out.println("U stringu " + str + " ima " + count(str, a) + " slova " + a);
 
 	}

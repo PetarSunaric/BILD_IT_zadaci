@@ -3,6 +3,7 @@ package zadaci_10_09_2016;
 public class Zadatak_1 {
 
 	public static int numberOfDaysInAYear(int year) {
+		// Provjerimo da li je godina prestupna
 		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
 			return 366;
 		}
@@ -16,7 +17,8 @@ public class Zadatak_1 {
 		int num1 = input.nextInt();
 		System.out.println("Molimo unesite krajnju godinu: ");
 		int num2 = input.nextInt();
-
+		// Idemo od pocetne do krajnje godine, pozivamo metodu da provjeri
+		// koliko dana ima ta godina i ispisujemo
 		for (int i = num1; i <= num2; i++) {
 			System.out.println(i + " = " + numberOfDaysInAYear(i));
 		}
