@@ -3,7 +3,7 @@ package zadaci_11_08_2016;
 public class Zadatak_2 {
 
 	public static boolean isPrime(int b) {
-		// Proverimo da li je broj prost
+		// Proverimo da li je broj prost 
 		if (b <= 1) {
 			return false;
 		}
