@@ -13,10 +13,13 @@ public class Zadatak_5 {
 		double cena2 = unos.nextDouble();
 		double tezina2 = unos.nextDouble();
 
+		double odnos1 = cena1 / tezina1;
+		double odnos2 = cena2 / tezina2;
+
 		// Racunamo koja je cijena i tezina povoljnija
-		if ((cena1 > cena2) && (tezina1 >= tezina2)) {
+		if (odnos1 > odnos2) {
 			System.out.println("Cena drugog paketa je povoljnija.");
-		} else if ((cena2 > cena1) && (tezina2 >= tezina1)) {
+		} else if (odnos2 > odnos1) {
 			System.out.println("Cena prvog paketa je povoljnija.");
 		} else {
 			System.out.println("Oba paketa su povoljna.");
