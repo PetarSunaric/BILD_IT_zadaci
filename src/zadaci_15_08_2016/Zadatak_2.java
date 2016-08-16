@@ -19,7 +19,7 @@ public class Zadatak_2 {
 
 	public static void game(int number) {
 		// Uzimamo random broj za racunar,ispisujemo dobijene brojeve i racunamo
-		// ko je bolji
+		// ko je bolji 
 		int racunar = (int) (Math.random() * 3);
 		System.out.print("Kompjuter je dobio " + name[racunar] + ", vi ste dobili " + name[number] + ". ");
 		if (number == racunar)

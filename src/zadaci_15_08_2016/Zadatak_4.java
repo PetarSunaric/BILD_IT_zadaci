@@ -4,7 +4,7 @@ public class Zadatak_4 {
 
 	public static int sumDigits(long n) {
 		/*
-		 * Broj prebacimo u string ,uzimamo slova i sabiramo
+		 * Broj prebacimo u string ,uzimamo slova i sabiramo 
 		 */
 		String num = n + "";
 		int sum = 0;
